@@ -3,7 +3,7 @@
 /* jshint browser: true */
 'use strict'
 
-const BASE_URL = "http://localhost:5000/api/v1/jokes"
+const BASE_URL = "https://cheara01.pythonanywhere.com/api/v1/jokes"
 
 async function get_jokes() {
     var category = document.getElementById("selCat").value;
